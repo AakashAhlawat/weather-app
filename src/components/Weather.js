@@ -13,6 +13,7 @@ const Weather = () => {
   function handleOnChange(event) {
     setCity(event.target.value);
     fetchData()
+    // to fetch
   }
 
   async function fetchData() {

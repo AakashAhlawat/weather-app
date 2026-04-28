@@ -10,17 +10,15 @@ body {
   height: 100vh;
 }
 
-/* Main container */
+
 .container {
   width: 320px;
-  padding: 20px;
-  border-radius: 20px;
-  background: #cfe3f1;
-  text-align: center;
+  padding: 20px;  border-radius: 20px;
+  background: #cfe3f1;  text-align: center;
   box-shadow: 0 10px 30px rgba(0,0,0,0.2);
 }
 
-/* Search bar */
+
 .city {
   display: flex;
   justify-content: space-between;
