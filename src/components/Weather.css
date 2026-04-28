@@ -1,0 +1,133 @@
+/* Full screen center */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to right, #3a7bd5, #00d2ff);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Main container */
+.container {
+  width: 320px;
+  padding: 20px;
+  border-radius: 20px;
+  background: #cfe3f1;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+/* Search bar */
+.city {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.city input {
+  flex: 1;
+  padding: 12px 15px;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  background: #f1f1f1;
+  box-shadow: inset 2px 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Search button */
+.city button {
+  margin-left: 10px;
+  padding: 12px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  background: #f1f1f1;
+  box-shadow: 3px 3px 8px rgba(0,0,0,0.2);
+}
+
+/* Weather icon */
+.weather-image img {
+  width: 100px;
+}
+
+/* City name */
+.content p:nth-child(2) {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 10px 0;
+}
+
+.content span {
+  font-size: 14px;
+  color: #333;
+}
+
+/* Temperature */
+.content p:nth-child(3) {
+  font-size: 40px;
+  font-weight: bold;
+  color: #3a7bd5;
+  margin: 10px 0;
+}
+
+/* Description */
+.content p:nth-child(4) {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #222;
+}
+
+/* Stats section */
+.weather-stats {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+/* Cards */
+.wind,
+.humidity {
+  width: 45%;
+  background: linear-gradient(to top, #3a7bd5, #4facfe);
+  padding: 15px;
+  border-radius: 15px;
+  color: #000;
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.2);
+}
+
+/* Icons */
+.wind-icon,
+.humidity-icon {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+/* Values */
+.wind-speed,
+.humidity-percent {
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+/* Labels */
+.wind-heading,
+.humidity-heading {
+  font-size: 13px;
+}
+
+/* Error message */
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+/* Loading text */
+.container p {
+  margin: 10px 0;
+}
