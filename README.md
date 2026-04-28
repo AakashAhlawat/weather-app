@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+#  the weather app link
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [https://weather-app-aakash.netlify.app/](https://weather-app-aakash.netlify.app/).
 
 ## Available Scripts
 
