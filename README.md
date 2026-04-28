@@ -2,6 +2,11 @@
 
 This project was bootstrapped with [https://weather-app-aakash.netlify.app/](https://weather-app-aakash.netlify.app/).
 
+
+# project img
+
+<img width="1276" height="867" alt="image" src="https://github.com/user-attachments/assets/be7883bf-0059-43da-846a-a2da004e00c1" />
+
 ## Available Scripts
 
 In the project directory, you can run:
